@@ -1,4 +1,111 @@
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 700px) {
+    #title-text {
+        text-align: center;
+        font-size: 3rem;
+        font-weight: bolder;
+        color: rgb(1, 80, 1);
+        text-shadow: 3px 5px 3px rgb(0, 0, 0);
+    }
+
+
+    #summary-text {
+        text-align: center;
+        text-decoration: overline;
+    }
+
+
+    .clear_div {
+        clear: both;
+    }
+
+
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        margin-top: 50px;
+    }
+
+
+    .container .card {
+        height: 200px;
+        width: 300px;
+        background-color: rgb(53, 53, 53);
+        text-align: center;
+        box-sizing: border-box;
+        box-shadow: 3px 7px 5px black;
+        justify-content: center;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        border-radius: 10px;
+    }
+
+
+    .container .card .card_title,.card_title {
+        color: rgb(255, 255, 255);
+        font-size: 3rem;
+        font-weight: bolder;
+        text-shadow: 2px 4px 3px rgb(0, 0, 0);
+    }
+
+
+    .container .card .card_text,.card_text {
+        font-size: 5rem;
+        font-weight: bolder;
+        text-shadow: 2px 2px 3px rgb(0, 0, 0);
+        color: white;
+    }
+
+
+    .container .card .card_btn_AllahuAkbar>input,.card_btn_AllahuAkbar>input{
+        height: 35px;
+        width: 100px;
+        font-size: 1.5rem;
+        font-weight: bolder;
+        padding: 3px;
+        border-radius: 10px;
+        margin: 15px 10px 0px 10px;
+        background-color: rgb(53, 53, 53);
+        color: white;
+        border-color: green;
+    }
+
+
+    .container .card .card_btn_AllahuAkbar>input.reset,.card_btn_AllahuAkbar>input.reset {
+        color: red;
+    }
+
+
+    .container .card .card_btn_AllahuAkbar>input:hover,.card_btn_AllahuAkbar>input:hover {
+        background-color: rgb(43, 43, 43);
+        color: white;
+        border-color: white;
+    }
+    .card{
+        height: 280px;
+        width: 300px;
+        background-color: grey;
+        margin: 0 auto;
+        text-align: center;
+        border-radius: 10px;
+        box-sizing: border-box;
+        box-shadow: 4px 8px 12px black;
+    }
+    #card_counter{
+        margin-top: 30px;
+        font-size: 3rem;
+    }
+    
+    #counter_title{
+        font-size: 3 rem;
+    }
+    #counter_card_text{
+        margin-top: 40px;
+    }
+}
+
+
+
+@media screen and (min-width: 700px) {
     #title-text {
         text-align: center;
         font-size: 3rem;
@@ -83,7 +190,7 @@
     .card{
         height: 280px;
         width: 500px;
-        background: linear-gradient(rgb(1,80,1),green,greenyellow);
+        background-color: grey;
         margin: 0 auto;
         text-align: center;
         border-radius: 10px;
@@ -105,7 +212,7 @@
 
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 1080px) {
     #title-text {
         text-align: center;
         font-size: 3rem;
@@ -208,7 +315,7 @@
 .card{
     height: 280px;
     width: 500px;
-    background: linear-gradient(rgb(1,80,1),green,greenyellow);
+    background-color: grey;
     margin: 0 auto;
     text-align: center;
     border-radius: 10px;
